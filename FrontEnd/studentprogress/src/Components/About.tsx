@@ -21,7 +21,7 @@ const About = () => {
           <li><Link to="/about">About Us</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
         </ul>
-        <Link to="/register" className="register-button">Register</Link>
+        <Link to="/reg" className="register-button">Register</Link>
       </nav>
 
       {/* Main Container */}
