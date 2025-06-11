@@ -8,17 +8,18 @@ const Registration = () => {
     <div className="registration-wrapper">
       <div className="registration-container">
         <div className="info">
-          <button className="login-signin" onClick={() => setLogin(true)}>
-            Login
-          </button>
+         
           <button className="login-signin" onClick={() => setLogin(false)}>
-            SignIn
+            Sign Up
+          </button>
+           <button className="login-signin" onClick={() => setLogin(true)}>
+            Log In
           </button>
         </div>
 
         {login ? (
           <div className="login-form">
-            <h2>Login</h2>
+            <h2>Log In</h2>
             <form>
               <input type="email" placeholder="Email" required />
               <input type="password" placeholder="Password" required />

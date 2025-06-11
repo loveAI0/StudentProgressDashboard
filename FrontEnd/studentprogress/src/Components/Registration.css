@@ -6,12 +6,15 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   width: 100%;
   max-width: 400px;
+  height: 600px;
+ 
 }
 
 .info {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 .login-signin {
